@@ -45,6 +45,7 @@ function Game() {
     if (calculateWinner(newSquares) || newSquares[i]) return;
     newSquares[i] = xIsNext ? "X" : "O";
     setSquares(newSquares);
+    // chuyen doi player
     setXIsNext((prevStep) => !prevStep);
   };
 
