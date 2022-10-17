@@ -51,6 +51,11 @@ body {
   grid-column-end: 3;
   grid-column-start: 1;
 }
+.game-board {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
 
 .square {
   background: #fff;
@@ -83,6 +88,7 @@ body {
   border: 1px solid #20b7f6;
   border-radius: 5px;
   padding: 10px;
+  margin-left: 10px;
 }
 
 .history h4 {
